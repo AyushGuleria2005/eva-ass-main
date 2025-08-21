@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVA, My Virtual Assistant</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="logo.jpg" type="image/jpeg">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <img src="robot.jpg" alt="EVA Virtual Assistant Logo" id="logo" loading="lazy">
+    <h1>
+      I’m <span id="name">EVA</span>, your 
+      <span id="va">Virtual Assistant</span>
+    </h1>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <figure>
+      <img src="voice.gif" alt="Voice animation visualizer" id="voice" loading="lazy">
+      <figcaption class="sr-only">Voice listening animation</figcaption>
+    </figure>
+
+    <!-- Interactive Button -->
+    <button type="button" class="btn" id="talkBtn" aria-label="Activate EVA voice assistant">
+      <strong>CLICK TO TALK</strong>
+
+      <!-- Decorative Stars -->
+      <div id="container-stars" aria-hidden="true">
+        <div id="stars"></div>
+      </div>
+
+      <!-- Glow Effect -->
+      <div id="glow" aria-hidden="true">
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+    </button>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <time datetime="2025">2025</time> EVA Assistant | Built by Shailesh</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js" defer></script>
+</body>
+</html>
